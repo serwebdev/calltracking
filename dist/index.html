@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__container">
+        <div class="header__inner">
+            <a href="/" class="header__logo-wrap">
+                <img src="img/logo.svg" alt="Логотип" class="header__logo">
+            </a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">О сервисе</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Для кого</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Отзывы</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Стоимость</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#register" class="header__btn btn-header open-modal">Заказать звонок</a>
+            <button type="button" class="burger-menu"><span></span></button>
+        </div>
+    </div>
+</header>
+
+        <main class="main">
+            <!-- hero----------------------------------------------------------------------- -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <div class="hero__left">
+                            <h1 class="hero__title">Удобный коллтрекинг для каждого</h1>
+                            <p class="hero__text">Покажет, сколько звонков генерирует реклама. Не доставит хлопот.
+                                Сэкономит бюджет. Защитит ваш номер от спама!</p>
+                            <div class="hero__options">
+                                <div class="hero__option">
+                                    <img src="img/check-icon.svg" alt="Иконка" class="hero__option-icon">
+                                    <span class="hero__option-text">Любой регион РФ</span>
+                                </div>
+                                <div class="hero__option">
+                                    <img src="img/check-icon.svg" alt="Иконка" class="hero__option-icon">
+                                    <span class="hero__option-text">Легкая настройка</span>
+                                </div>
+                            </div>
+                            <a href="#register" class="hero__btn btn open-modal">Подключить</a>
+                        </div>
+                        <div class="hero__right">
+                            <img src="img/hero.webp" alt="Удобный коллтрекинг" class="hero__img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- tool---------------------------------------------------------------------- -->
+            <section class="tool">
+                <div class="container">
+                    <h2 class="tool__title h2">Простой инструмент для отслеживания звонков</h2>
+                    <p class="tool__text">Динамический коллтрекер предоставит подробную статистику звонков, защитит ваш
+                        номер от спама и поможет оценить эффективность рекламы.</p>
+                    <div class="tool__cards">
+                        <div class="tool__card">
+                            <div class="tool__card-img-wrap">
+                                <img src="img/tool-1.webp" alt="Шаг 1" class="tool__card-img">
+                            </div>
+                            <div class="tool__card-bottom">
+                                <div class="tool__card-number tool__card-number--1">1</div>
+                                <div class="tool__card-text-wrap">
+                                    <p class="tool__card-text"><span>Мы</span> — генерируем скрипт для установки на
+                                        сайт.
+                                    </p>
+                                    <p class="tool__card-text">
+                                        <span>Вы</span> — на сайте размещаете скрипт, который заменит обычный номер на
+                                        номер
+                                        коллтрекера.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tool__card">
+                            <div class="tool__card-img-wrap">
+                                <img src="img/tool-2.webp" alt="Шаг 2" class="tool__card-img">
+                            </div>
+                            <div class="tool__card-bottom">
+                                <div class="tool__card-number tool__card-number--2">2</div>
+                                <div class="tool__card-text-wrap">
+                                    <p class="tool__card-text"><span>Посетители сайта</span> — звонят на этот
+                                        номер.
+                                    </p>
+                                    <p class="tool__card-text">
+                                        <span>Звонки</span> — переадресуются на ваш обычный телефон.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tool__card">
+                            <div class="tool__card-img-wrap">
+                                <img src="img/tool-3.webp" alt="Шаг 3" class="tool__card-img">
+                            </div>
+                            <div class="tool__card-bottom">
+                                <div class="tool__card-number tool__card-number--3">3</div>
+                                <div class="tool__card-text-wrap">
+                                    <p class="tool__card-text"><span>Мы</span> — показываем детальную информацию о
+                                        звонках:
+                                        кто, откуда,
+                                        когда и зачем звонил.
+                                    </p>
+                                    <p class="tool__card-text">
+                                        <span>Вы</span> — понимаете, насколько хорошо работает реклама и знаете, когда
+                                        звонят
+                                        по рекламному номеру.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- for-everyboby-------------------------------------------------------------------- -->
+            <section class="for-everyboby">
+                <div class="container">
+                    <h2 class="for-everyboby__title h2">Коллтрекинг, доступный каждому</h2>
+                    <div class="main-tabs">
+                        <div class="main-tabs__left">
+                            <div class="main-tabs__top">
+                                <!-- <button class="main-tabs__button active">Предпринимателю</button>
+                                <button class="main-tabs__button">Маркетологу</button>
+                                <button class="main-tabs__button">Любому человеку</button>
+                                <button class="main-tabs__button">Самозанятому</button> -->
+
+                                <button class="main-tabs__button active">
+                                    <span>Предпринимателю</span>
+                                    <span>Предпринимателю</span>
+                                </button>
+                                <button class="main-tabs__button">
+                                    <span>Маркетологу</span>
+                                    <span>Маркетологу</span>
+                                </button>
+                                <button class="main-tabs__button">
+                                    <span>Любому человеку</span>
+                                    <span>Любому человеку</span>
+                                </button>
+                                <button class="main-tabs__button">
+                                    <span>Самозанятому</span>
+                                    <span>Самозанятому</span>
+                                </button>
+                            </div>
+                            <div class="main-tabs__bottom">
+                                <div class="main-tabs__content active">
+                                    <div class="main-tabs__content-item">Будьте в курсе, какая реклама приводит
+                                        клиентов, а от какой лучше отказаться</div>
+                                    <div class="main-tabs__content-item">Будьте в курсе, какая реклама приводит
+                                        клиентов, а от какой лучше отказаться</div>
+                                    <div class="main-tabs__content-item">Получайте статистику звонков за пару кликов
+                                        прямо в телефоне</div>
+                                    <div class="main-tabs__content-item">Получайте статистику звонков за пару кликов
+                                        прямо в телефоне</div>
+                                </div>
+                                <div class="main-tabs__content">
+                                    <div class="main-tabs__content-item">Проверяйте эффективность работы любых
+                                        рекламных каналов</div>
+                                    <div class="main-tabs__content-item">Анализируйте рекламные кампании дажев небольших
+                                        городах</div>
+                                    <div class="main-tabs__content-item">Начните без сложного обучения,
+                                        агентских договоров и сертификаций</div>
+                                    <div class="main-tabs__content-item">Отправляйте звонки изГудка в Яндекс.Метрику
+                                        иGoogle Analytics</div>
+                                </div>
+                                <div class="main-tabs__content">
+                                    <div class="main-tabs__content-item">Размещайте подменный номер вместо личного
+                                        припродаже товаров в интернете</div>
+                                    <div class="main-tabs__content-item">Избавьтесь от ежедневных назойливых
+                                        рекламных звонков</div>
+                                    <div class="main-tabs__content-item">Используйте одну симкарту без риска попасть в
+                                        базы рекламного обзвона</div>
+                                </div>
+                                <div class="main-tabs__content">
+                                    <div class="main-tabs__content-item">Подключите городской номердля большего доверия
+                                        клиентов</div>
+                                    <div class="main-tabs__content-item">Записывайте входящие звонки, чтобы не забыть
+                                        детали заказа</div>
+                                    <div class="main-tabs__content-item">Разделите рабочие и личные звонки</div>
+                                    <div class="main-tabs__content-item">Когда появится помощник —делегируйте ему звонки
+                                        в один клик</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-tabs__right">
+                            <div class="main-tabs__img-wrap active">
+                                <img src="img/main-tabs-1.webp" alt="Коллтрекинг для всех" class="main-tabs__img">
+                            </div>
+                            <div class="main-tabs__img-wrap">
+                                <img src="img/main-tabs-2.webp" alt="Коллтрекинг для всех" class="main-tabs__img">
+                            </div>
+                            <div class="main-tabs__img-wrap">
+                                <img src="img/main-tabs-3.webp" alt="Коллтрекинг для всех" class="main-tabs__img">
+                            </div>
+                            <div class="main-tabs__img-wrap">
+                                <img src="img/main-tabs-4.webp" alt="Коллтрекинг для всех" class="main-tabs__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- reviews---------------------------------------------------------------------- -->
+            <section class="reviews">
+                <div class="reviews__wrapper">
+                    <div class="reviews__container">
+                        <h2 class="reviews__title h2">О нас говорят</h2>
+                        <div class="reviews__inner">
+                            <div class="reviews-slider-container">
+                                <div class="reviews-slider-prev">
+                                    <img src="img/arrow-left.svg" alt="Стрелка">
+                                </div>
+                                <div class="reviews-slider swiper">
+                                    <div class="reviews-slider__wrapper swiper-wrapper">
+                                        <div class="reviews-slider__slide swiper-slide">
+                                            <img src="img/reviews-item-bg.svg" alt="Фон" class="reviews-slider__img-bg">
+                                            <img src="img/reviews-item-bg-mobile.svg" alt="Фон"
+                                                class="reviews-slider__img-bg-mobile">
+                                            <div class="reviews-slider__card">
+                                                <div class="reviews-slider__card-username">Ольга Кузьмина</div>
+                                                <p class="reviews-slider__card-text">Коллтрекер значительно упростил
+                                                    нашу работу с рекламой. Теперь мы точно знаем, какие кампании
+                                                    приносят звонки.</p>
+                                                <div class="reviews-slider__stars">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reviews-slider__slide swiper-slide">
+                                            <img src="img/reviews-item-bg.svg" alt="Фон" class="reviews-slider__img-bg">
+                                            <img src="img/reviews-item-bg-mobile.svg" alt="Фон"
+                                                class="reviews-slider__img-bg-mobile">
+                                            <div class="reviews-slider__card">
+                                                <div class="reviews-slider__card-username">Алексей Гришин</div>
+                                                <p class="reviews-slider__card-text">Отличный сервис! Подробная
+                                                    статистика звонков и защита от спама помогли нам оптимизировать
+                                                    рекламный бюджет.</p>
+                                                <div class="reviews-slider__stars">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reviews-slider__slide swiper-slide">
+                                            <img src="img/reviews-item-bg.svg" alt="Фон" class="reviews-slider__img-bg">
+                                            <img src="img/reviews-item-bg-mobile.svg" alt="Фон"
+                                                class="reviews-slider__img-bg-mobile">
+                                            <div class="reviews-slider__card">
+                                                <div class="reviews-slider__card-username">Валерия Щербакова</div>
+                                                <p class="reviews-slider__card-text">Очень довольны коллтрекером.
+                                                    Простой в использовании инструмент, который действительно помогает
+                                                    отслеживать и анализировать звонки.</p>
+                                                <div class="reviews-slider__stars">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reviews-slider__slide swiper-slide">
+                                            <img src="img/reviews-item-bg.svg" alt="Фон" class="reviews-slider__img-bg">
+                                            <img src="img/reviews-item-bg-mobile.svg" alt="Фон"
+                                                class="reviews-slider__img-bg-mobile">
+                                            <div class="reviews-slider__card">
+                                                <div class="reviews-slider__card-username">Ольга Кузьмина</div>
+                                                <p class="reviews-slider__card-text">Коллтрекер значительно упростил
+                                                    нашу работу с рекламой. Теперь мы точно знаем, какие кампании
+                                                    приносят звонки.</p>
+                                                <div class="reviews-slider__stars">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reviews-slider__slide swiper-slide">
+                                            <img src="img/reviews-item-bg.svg" alt="Фон" class="reviews-slider__img-bg">
+                                            <img src="img/reviews-item-bg-mobile.svg" alt="Фон"
+                                                class="reviews-slider__img-bg-mobile">
+                                            <div class="reviews-slider__card">
+                                                <div class="reviews-slider__card-username">Алексей Гришин</div>
+                                                <p class="reviews-slider__card-text">Отличный сервис! Подробная
+                                                    статистика звонков и защита от спама помогли нам оптимизировать
+                                                    рекламный бюджет.</p>
+                                                <div class="reviews-slider__stars">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reviews-slider__slide swiper-slide">
+                                            <img src="img/reviews-item-bg.svg" alt="Фон" class="reviews-slider__img-bg">
+                                            <img src="img/reviews-item-bg-mobile.svg" alt="Фон"
+                                                class="reviews-slider__img-bg-mobile">
+                                            <div class="reviews-slider__card">
+                                                <div class="reviews-slider__card-username">Валерия Щербакова</div>
+                                                <p class="reviews-slider__card-text">Очень довольны коллтрекером.
+                                                    Простой в использовании инструмент, который действительно помогает
+                                                    отслеживать и анализировать звонки.</p>
+                                                <div class="reviews-slider__stars">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                    <img src="img/reviews-star.svg" alt="Звезда"
+                                                        class="reviews-slider__star-img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="reviews-slider-next">
+                                    <img src="img/arrow-right.svg" alt="Стрелка">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- begin-------------------------------------------------------------------- -->
+            <section class="begin">
+                <div class="container">
+                    <div class="begin__title-wrap">
+                        <h2 class="begin__title h2">Начните оценивать рекламу за 2 минуты</h2>
+                    </div>
+                    <p class="begin__text">Попробуйте сервис в действии на примере журнала звонков</p>
+                    <div class="begin__inner">
+                        <div class="begin__cards">
+                            <div class="begin__card">
+                                <div class="begin__card-number begin__card-number--1">1</div>
+                                <h5 class="begin__card-title">Оплатите коллтрекинг</h5>
+                                <p class="begin__card-text">Выберите опции, оплатите коллтрекинг и получите номер
+                                    телефона нужного вам региона</p>
+                            </div>
+                            <div class="begin__card">
+                                <div class="begin__card-number begin__card-number--2">2</div>
+                                <h5 class="begin__card-title">Настройте проект</h5>
+                                <p class="begin__card-text">Укажите, где будет размещен номер, добавьте номер
+                                    дляпереадресации и загрузите аудиоприветствие</p>
+                            </div>
+                            <div class="begin__card">
+                                <div class="begin__card-number begin__card-number--3">3</div>
+                                <h5 class="begin__card-title">Собирайте статистику</h5>
+                                <p class="begin__card-text">Звонки хранятся в личном кабинете. Изучайте подробную
+                                    статистику и слушайте записи разговоров</p>
+                            </div>
+                        </div>
+                        <div class="begin__img-wrap">
+                            <img src="img/begin.webp" alt="Начать работу" class="begin__img">
+                        </div>
+                        <div class="begin__btn-wrap">
+                            <a href="#register" class="begin__btn btn open-modal">Начать работу</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- register------------------------------------------------------------------------- -->
+            <section class="register" id="register">
+                <div class="container">
+                    <h2 class="register__title h2">Регистрация</h2>
+                    <div class="register__inner">
+                        <form class="register__form">
+                            <input type="text" class="register__input" placeholder="Имя">
+                            <input type="text" class="register__input" placeholder="Фамилия">
+                            <input type="tel" class="register__input" placeholder="+7 (___) ___-__-__">
+                            <input type="text" class="register__input" placeholder="E-mail">
+                            <input type="text" class="register__input" placeholder="Сайт">
+                            <button class="register__btn btn">Регистрация</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- pay-info----------------------------------------------------------------------------- -->
+            <section class="pay-info">
+                <div class="container">
+                    <h2 class="pay-info__title h2">Платите только за нужное!</h2>
+                    <div class="pay-info__inner">
+                        <div class="pay-info__left">
+                            <div class="pay-info__box">
+                                <div class="pay-info__box-price">от 2990 ₽</div>
+                                <p class="pay-info__box-text"><span>в месяц</span>при оплате за год</p>
+                            </div>
+                            <p class="pay-info__text">Никаких лишних функций и дополнительных платежей. Цена в разы
+                                ниже, чем
+                                у конкурентов.
+                            </p>
+                            <p class="pay-info__text">Это окончательная цена, без скрытых платежей.
+                                Номер начнет работать сразу.</p>
+                            <a href="#register" class="pay-info__btn btn open-modal">Подключить коллтрекинг</a>
+                        </div>
+                        <div class="pay-info__right">
+                            <img src="img/pay.webp" alt="Платите только за нужное" class="pay-info__img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- cities----------------------------------------------------------------------------- -->
+            <section class="cities">
+                <div class="container">
+                    <h2 class="cities__title h2">Города присутствия</h2>
+                    <p class="cities__text">Наш сервис работает по 250 городам России.</p>
+                    <div class="cities__img-wrap">
+                        <img src="img/cities.webp" alt="Города" class="cities__img">
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__top">
+                <nav class="menu-footer">
+                    <ul class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">О сервисе</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Для кого?</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Отзывы</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Стоимость</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#register" class="footer__btn btn-header open-modal">Заказать звонок</a>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom-text">AlloTrack, коллтрекинг для людей, 2024</div>
+                <a href="#" class="footer__bottom-policy">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+
+    <div class="modal modal-1">
+    <div class="modal__body">
+        <button class="modal__btn-close">
+            <img src="img/close-modal.svg" alt="">
+        </button>
+        <div class="modal__content">
+            <div class="feedback-modal">
+                <h2 class="feedback-modal__title h2">Оставьте свои контакты, и мы с вами свяжемся</h2>
+                <form action="" class="feedback-modal__form">
+                    <input type="text" class="feedback-modal__input" placeholder="Имя">
+                    <input type="tel" class="feedback-modal__input" placeholder="+7 (___) ___-__-__">
+                    <button class="feedback-modal__btn btn">Подключить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

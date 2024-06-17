@@ -1,0 +1,19 @@
+// Внешние файлы ======================================================
+@import '../../node_modules/swiper/swiper-bundle.min';
+
+// Из папки vendor =====================================================
+
+// Базовые стили =======================================================
+@import 'base/reset';
+@import 'base/fonts';
+@import 'base/vars';
+@import 'base/mixins';
+@import 'base/global';
+
+// Компоненты ===========================================================
+@import 'components/header';
+@import 'components/footer';
+@import 'components/modal';
+
+// Страницы ================================================================
+@import 'pages/index';
